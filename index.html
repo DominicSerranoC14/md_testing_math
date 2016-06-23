@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div id="container">
+      <input id="user-input" type="text" placeholder="Enter"></input>
+
+      <button class="op">add</button>
+      <button class="op">subtract</button>
+      <button class="op">multiply</button>
+      <button class="op">divide</button>
+      <button class="op">square</button>
+      <button class="op">squareRoot</button>
+    </div>
+
+  </body>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="src/ui.js"></script>
+  <script src="src/operations.js"></script>
+</html>
+
+<!-- The user will enter a number in the text input.
+The user will then press one of the buttons for an operation.
+The input field should be cleared so that a new number can be typed in.
+The user will then type in a new number and press enter.
+The resulting value of the operation should then be in the text input. -->
+
+<!-- one function that handles inputs and passes input and function to operator function, takes 3 args -->

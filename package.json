@@ -1,0 +1,22 @@
+{
+  "name": "testing-math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominicSerranoC14/md_testing_math.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominicSerranoC14/md_testing_math/issues"
+  },
+  "homepage": "https://github.com/DominicSerranoC14/md_testing_math#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}

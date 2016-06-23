@@ -1,0 +1,35 @@
+/**************************
+ *Begin base layout styles*
+***************************/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  display: inline;
+}
+
+input {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+button {
+  width: 5rem;
+  margin: 1rem 1rem;
+}
+
+
+/**************************
+ *Begin selector layout styles*
+***************************/
+
+#container {
+  width: 15rem;
+  margin: 5rem auto;
+  border: 1px solid black;
+}
